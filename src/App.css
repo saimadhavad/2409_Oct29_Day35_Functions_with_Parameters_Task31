@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+  background: linear-gradient(to right, #757f9a, #d7dde8);
+  padding: 60px;
+  color: #2A3132;
+  /* font-weight: 600; */
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+.App {
+  text-align: center;
+  width:900px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 2px solid #d7dde8;
+  /* box-sizing: border-box; */
+  background: linear-gradient(to left, #757f9a, #d7dde8);
+  filter:drop-shadow(20px 20px 50px #757f9a);
+} 
+h1  {
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 2.2rem;
+  padding: 10px;
+}
+form {
+  width: 600px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+form label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  padding-right: 5px;
+
+}
+form div {
+  margin: 10px;
+}
+.spanColon {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.innerLabel {
+  width: auto;
+}
+.spanResult {
+  display: inline-block ;
+  width: 100px;
+}
+input[type=text],input[type=number] {
+  
+  height: 35px;
+  width: 45%;
+  border: 0px;
+  border-bottom: 5px solid #2A3132;
+  border-radius: 25px;
+  box-shadow: 10px 10px 30px #757f9a;
+}
+fieldset {
+  border: 2px solid #2A3132;
+  margin: 10px;
+}
+legend {
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  padding: 5px 20px 5px 20px;
+  text-align: left;
+  background: linear-gradient(to left, #757f9a, #d7dde8);
+  border-radius: 15px;
+  box-shadow: 20px 20px 50px #757f9a;
+}
+button {
+  width: 30%;
+  height: 40px;
+  border-radius: 15px;
+  border: 0px;
+  background: linear-gradient(to right, #757f9a, #d7dde8);
+  color: #2A3132;
+  font-weight: 600;
+  border-bottom: 5px solid #2A3132;
+}
+.buttonColor:hover {
+  background: linear-gradient(to right, #757f9a, #2A3132);
+  color: white;
+  box-shadow: 10px 10px 5px #757f9a;
+}
